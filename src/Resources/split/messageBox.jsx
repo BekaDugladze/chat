@@ -10,7 +10,7 @@ export default function MessageBox({getMessages}) {
     const postUsers = async () => {
         try{
             const text = messageBoxRef.current.innerText;
-            const post = await fetch('http://localhost:1000/chat', {
+            const post = await fetch('https://chat-back-qqgr.onrender.com/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

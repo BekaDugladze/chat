@@ -46,7 +46,7 @@ export default class Auth extends Component{
                 {this.state.active === 'but2' && (<LazyReg />)}
                 </Suspense>
                 <p>Or</p>
-                <a href='http://localhost:1000/auth/google'><FontAwesomeIcon icon={faGoogle}/>   Continue with Google</a>
+                <a href='https://chat-back-qqgr.onrender.com/auth/google'><FontAwesomeIcon icon={faGoogle}/>   Continue with Google</a>
             </div>
             <img src={img} width='100px' height='100px' alt='Chat App, Beka Dugladze, Portfolio'/>
         </div>

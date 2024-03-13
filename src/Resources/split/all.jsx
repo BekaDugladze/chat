@@ -12,7 +12,7 @@ export default function All() {
     const getAllUsers = async () => {
         try{    
             const email = encodeURIComponent(user);
-            const response = await fetch(`http://localhost:1000/chat/allLast?email=${email}`, {
+            const response = await fetch(`https://chat-back-qqgr.onrender.com/chat/allLast?email=${email}`, {
                 method: 'GET',
             });
             const data = await response.json()

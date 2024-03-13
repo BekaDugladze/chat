@@ -7,7 +7,7 @@ export default function GetLoggedUser(){
 
     const get = async () => {
         try{
-            const response = await fetch(`http://localhost:1000/profile`, {
+            const response = await fetch(`https://chat-back-qqgr.onrender.com/profile`, {
                 method: 'GET',
                 credentials: 'include'
             })

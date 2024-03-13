@@ -42,7 +42,7 @@ class Register extends Component {
         this.passCheck();
         try{
             if(this.state.but){
-            const register = await fetch(`http://localhost:1000/register`, {
+            const register = await fetch(`https://chat-back-qqgr.onrender.com/register`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

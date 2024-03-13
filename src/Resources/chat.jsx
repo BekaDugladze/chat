@@ -39,7 +39,7 @@ export default class Chat extends Component {
     
     async getUser() {
         try{
-        const response = await fetch(`http://localhost:1000/profile`, {
+        const response = await fetch(`https://chat-back-qqgr.onrender.com/profile`, {
             method: 'GET',
             credentials: 'include'
         })
@@ -55,7 +55,7 @@ export default class Chat extends Component {
     }
     async handleLogout(){
         try{
-        const response = await fetch('http://localhost:1000/logout', {
+        const response = await fetch('https://chat-back-qqgr.onrender.com/logout', {
             method: 'GET',
             credentials: 'include',
         })

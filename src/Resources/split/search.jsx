@@ -25,7 +25,7 @@ function Search() {
                 if(search.length === 0){
                     setFound(false);
                 }
-                const url = `http://localhost:1000/user?email=${email}`;
+                const url = `https://chat-back-qqgr.onrender.com/user?email=${email}`;
                 const response = await fetch(url, {
                     method: 'GET',
                 })

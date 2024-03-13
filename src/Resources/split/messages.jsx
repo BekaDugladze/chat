@@ -11,7 +11,7 @@ export default function Messages() {
     const getMessages = async () => {
         try{
             if(userEmail){
-            const url = `http://localhost:1000/chat/messages?userEmail=${encodeURIComponent(userEmail)}`
+            const url = `https://chat-back-qqgr.onrender.com/chat/messages?userEmail=${encodeURIComponent(userEmail)}`
             const get = await fetch(url, {
             method: 'GET',
             headers: {

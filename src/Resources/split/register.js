@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import '../../.env'
 
 class Register extends Component {
     constructor(props) {

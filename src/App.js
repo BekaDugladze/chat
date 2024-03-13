@@ -17,7 +17,7 @@ class App extends Component {
   }
   async isAuthed() {
     try{
-      const response = await fetch('https://chat-dl62.onrender.com/profile', {
+      const response = await fetch('https://chat-back-qqgr.onrender.com/profile', {
         method: 'GET',
         credentials: 'include',
       })

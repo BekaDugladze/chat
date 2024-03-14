@@ -30,8 +30,8 @@ class App extends Component {
     }
   }
 
-  async componentDidMount() {
-    await this.isAuthed()
+  componentDidMount() {
+    this.isAuthed()
   }
   render() {
     return (

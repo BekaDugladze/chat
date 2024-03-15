@@ -31,7 +31,7 @@ class App extends Component {
   }
 
   async componentDidMount() {
-     this.isAuthed()
+     await this.isAuthed()
   }
   render() {
     return (

@@ -17,7 +17,7 @@ class App extends Component {
   }
   async isAuthed() {
     try{
-      const response = await fetch('https://chat-back-qqgr.onrender.com/profile', {
+      const response = await fetch('https://chat-back-snowy.vercel.app/profile', {
         method: 'GET',
         credentials: 'include',
       })

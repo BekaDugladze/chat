@@ -21,7 +21,7 @@ class Login extends Component {
     async logIn(e) {
         e.preventDefault();
         try{
-            const response = await fetch('https://chat-back-qqgr.onrender.com/login', {
+            const response = await fetch('https://chat-back-snowy.vercel.app/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

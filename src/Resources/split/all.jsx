@@ -12,7 +12,7 @@ export default function All() {
     const getAllUsers = async () => {
         try{    
             const email = encodeURIComponent(user);
-            const response = await fetch(`https://chat-back-qqgr.onrender.com/chat/allLast?email=${email}`, {
+            const response = await fetch(`https://chat-back-snowy.vercel.app/chat/allLast?email=${email}`, {
                 method: 'GET',
             });
             const data = await response.json()
